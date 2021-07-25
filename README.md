@@ -6,4 +6,4 @@ are new to this village or reside in this village
 
 We also provide finest services to people who reside in Barkur. This
 initiative is a step towards the digitalization of India, where even
-the faciitiesin the villages are done digitally. T
+the faciitiesin the villages are done digitally.
