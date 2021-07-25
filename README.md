@@ -10,4 +10,4 @@ the faciitiesin the villages are done digitally.
 
 The project is executed on XAMPP server.
 
-https://nammabarkur.epizy.com
+http://nammabarkur.epizy.com
