@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist places</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+        <p id="topright"></p>
+        <script>
+            var d=new Date();
+            document.getElementById("topright").innerHTML=d;
+        </script>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="navbtn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <img src="ZDT.png" alt="Namma Barkur">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="#tourist">Tourist places</a></li> 
+                <li><a href="login.php">Services</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+            </ul>
+        </nav>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="up-chevron.png" width="54px" height="54px"></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <div class="tourist">
+        <h1><u>Tourist Places</u></h1><br>
+    </div>
+    <article>
+        <ol>
+            <h1 class="place-name"><li>Katale Basadi</li></h1> <br>
+            <div class="tour-item">
+            <div class="parent">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Kattale_basadi.jpg/330px-Kattale_basadi.jpg" width="300" height="250">
+            </div>
+            <div class="child">
+                At the entrance of this Jain basadi, there’s a monolithic pillar, around 20 feet tall.
+                A strange thing about this basadi is that in the courtyard of this structure, are temples for Nagakaali, Shiva and Vishnu.
+                This indicates that this place was ruled by several rulers of different religions and beliefs. We can also see carvings on the stone walls of the basadi, and a stone platform with 24 dents, which leads us to believe that it might have held idols of 24 tirthankaras earlier.
+            </div>
+            </div><hr>
+            <h1 class="place-name"><li>Barkur fort</li></h1> <br>
+            <div class="tour-item">
+            <div class="parent">
+            <img src="https://static.toiimg.com/thumb/msid-67651190,width-1200,height-900,resizemode-4/.jpg" width="300" height="250">
+            </div>
+            <div class="child">
+                Barkur Fort is spread across 20 acres, which is now mostly in ruins. But it still makes for an exciting visit.
+            </div>
+            </div><hr>
+            <h1 class="place-name"><li>Saint Peter’s Church</li></h1> <br>
+            <div class="tour-item">
+            <div class="parent">
+            <img src="http://www.stpeterchurchbarkur.com/themes/stpeter/assets/img/church.jpg" width="300" height="250">
+            </div>
+            <div class="child">
+                Around 150 years old, this gothic-style church has beautiful interiors, and is worth a visit.
+            </div>
+            </div><hr>
+            <h1 class="place-name"><li>Bennekudru Island</li></h1> <br>
+            <div class="tour-item">
+            <div class="parent">
+            <img src="bennekudru.png" width="300" height="250"> 
+            </div>
+            <div class="child">
+                Near to Barkur town, there is a beautiful island called Bennekudru that houses a 1,000-year-old temple for the mogaveera (fisherman) community. Wooden statues of people and animals are the main attractions of this place.
+            </div>
+            </div><hr>
+        </ol>
+        <h2 >And many popular temples</h2>
+        <p class="parent">
+            Chowlikeri Bhairava Ganapathi and Mahalingeshwara Temple, Panchalingeshwara, Batte Vinayaka, Moodukeri Somanatha, Banashankari, Balegara Keri Maha Ganapathi and Manigara Keri Someshwara are the important temples of this area. Most of these temples sport a terracotta tile roof.
+        </p>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img id="gallery" src="https://static2.tripoto.com/media/filter/nxxl/img/316100/TripDocument/1473694100_p_20160904_142228_hdr_1.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://static2.tripoto.com/media/filter/nxxl/img/316100/TripDocument/1473694972_p_20160904_152354_hdr_1.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://2.bp.blogspot.com/-nvrBTPJYHK4/UevoQbNIkrI/AAAAAAAAJDM/4SuIcZG6-pA/s640/Panchlingeshwar+Temple+1.JPGg" height="400px" style="width:100%" >
+              <div class="text"><i>Panchlingeshwara temple</i></div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2018/09/09/file71s0ol1ls3rrbocu7fi.jpg?itok=BEMv7GCF" height="400px" style="width:100%">
+                <div class="text"><i>Batte Vinayaka temple</i></div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+        </div>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+                
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+        <br>
+    </article>
+    <footer>
+        <br>
+        <h1 align="center"><u>Contact Us</u></h1>
+        <div id="contactus" class="main-content">
+            <div class="left box">
+                <div class="phone">
+                    <span class="fas fa-phone-alt">  Phone</span>
+                </div>    
+              <div class="content">
+                <p>+91-910-814-0026</p>
+                <p>+91-959-101-3999</p>
+              </div>
+            </div>
+            <div class="center box">
+                <div class="email">
+                    <span class="fas fa-envelope">  Email</span>
+                </div>    
+              <div class="content">
+                <p>support@nammabarkur.in</p>
+                <p>24x7 online support</p>
+              </div>
+            </div>
+            <div class="right box">
+                <h2>Social Media</h2>
+                <div class="content">
+                    <div class="social">
+                        <a href="#contactus" class="fb"><span class="fab fa-facebook-f">  </span></a>
+                        <a href="#contactus" class="tw"><span class="fab fa-twitter">  </span></a>
+                        <a href="#contactus" class="ig"><span class="fab fa-instagram">  </span></a>
+                        <a href="#contactus" class="yt"><span class="fab fa-youtube">  </span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div align="center">
+            <span class="fa fa-copyright"> 2020-21 Namma Barkur</span>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
